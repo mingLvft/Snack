@@ -16,7 +16,17 @@
     width: 100rpx;
     border-radius: 100rpx;
 }
+.my-header .img{
+    overflow:hidden;
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 100rpx;
+}
 .my-header text{
+    margin-left: 20rpx;
+}
+.my-header .text{
+    overflow:hidden;
     margin-left: 20rpx;
 }
 .my-address{
