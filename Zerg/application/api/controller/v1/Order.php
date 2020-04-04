@@ -32,7 +32,7 @@ class Order extends BaseController
 
     protected $beforeActionList = [
         'checkExclusiveScope' => ['only' => 'placeOrder'],
-        'checkPrimaryScope' => ['only' => 'getDetail,getSummaryUser'],
+        'checkPrimaryScope' => ['only' => 'getDetail,getSummaryByUser'],
     ];
 
     public function getSummaryByUser($page=1, $size=15){
