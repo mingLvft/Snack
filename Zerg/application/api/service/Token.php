@@ -4,7 +4,7 @@
 namespace app\api\service;
 
 
-use api\lib\enum\ScopeEnum;
+use app\lib\enum\ScopeEnum;
 use app\lib\exception\ForbiddenException;
 use app\lib\exception\TokenException;
 use think\Cache;
